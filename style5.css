@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #003366;
+    padding: 15px 0;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.panel{
+    display:flex;
+    background-color:antiquewhite;
+    font-size: 14px;
+    color:#FFFFFF;
+    height:40px;
+    justify-content:center;
+    align-items: center;
+}
+.nav-search{
+    display:flex;
+    width:500px;
+    background-color:#ff6600;
+    height:40px;
+    border-radius:5px;
+    justify-content:center;}
+.search-icon{
+        width:45px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size:1.2rem;
+        color:#0F1111;
+    }
+.search-icon a{
+    text-decoration:none;
+}
+.search-input{
+        width:100%;
+        font-size:1rem;
+        border:3px solid #ff6600;
+
+    }
+    
+
+/* Highlight Button */
+nav ul li .btn {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul li .btn:hover {
+    background-color: #e65c00;
+}
+
+
+
+
+/* Property Listings */
+.properties {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap:wrap;
+}
+
+.property-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.property-item h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.property-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
